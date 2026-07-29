@@ -31,11 +31,11 @@ src/main/java/com/javier/biblioteca/
 ```
 
 ## Clases principales
-**`Book`** — Representa un libro (`title`, `author`, `isbn`, `available`). Datos inmutables salvo la disponibilidad.
-**`User`** — Representa un usuario de la biblioteca. Controla su propia lista de libros prestados (`borrowedBooks`), con un límite máximo de 3 libros simultáneos.
-**`Loan`** — Representa un préstamo. Calcula automáticamente `loanDate` y `dueDate` (14 días de plazo) al crearse, y registra `returnDate` al devolverse.
-**`Library`** — Clase orquestadora. Administra libros y usuarios registrados (`Map`) y préstamos activos (`List`), coordinando las validaciones entre `Book`, `User` y `Loan`.
-**`Main`** — Menú interactivo por consola para probar el sistema.
+- **`Book`** — Representa un libro (`title`, `author`, `isbn`, `available`). Datos inmutables salvo la disponibilidad.
+- **`User`** — Representa un usuario de la biblioteca. Controla su propia lista de libros prestados (`borrowedBooks`), con un límite máximo de 3 libros simultáneos.
+- **`Loan`** — Representa un préstamo. Calcula automáticamente `loanDate` y `dueDate` (14 días de plazo) al crearse, y registra `returnDate` al devolverse.
+- **`Library`** — Clase orquestadora. Administra libros y usuarios registrados (`Map`) y préstamos activos (`List`), coordinando las validaciones entre `Book`, `User` y `Loan`.
+- **`Main`** — Menú interactivo por consola para probar el sistema.
 
 ## Funcionalidades
 1. Agregar libro
