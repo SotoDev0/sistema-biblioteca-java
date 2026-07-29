@@ -11,7 +11,7 @@ Practicar en un solo flujo integrado:
 - Entrada de datos por consola con `Scanner`
 
 ## Estructura del proyecto
-\```
+```
 src/main/java/com/javier/biblioteca/
 ├── Book.java
 ├── User.java
@@ -28,7 +28,7 @@ src/main/java/com/javier/biblioteca/
     ├── BookNotBorrowedException.java
     ├── UserLimitExceededException.java
     └── LoanNotFoundException.java
-\```
+```
 
 ## Clases principales
 **`Book`** — Representa un libro (`title`, `author`, `isbn`, `available`). Datos inmutables salvo la disponibilidad.
@@ -52,10 +52,10 @@ src/main/java/com/javier/biblioteca/
 - No se puede devolver un libro que no fue prestado por ese usuario.
 
 ## Cómo ejecutar
-\```bash
+```
 mvn compile
 mvn exec:java -Dexec.mainClass="com.javier.biblioteca.Main"
-\```
+```
 
 O directamente desde IntelliJ, ejecutando la clase `Main`.
 
